@@ -78,12 +78,12 @@
 </header>
 <slot><!-- optional fallback --></slot>
 <form
-	class="w-screen h-[70vh] bg-[url('/src/lib/images/wave-inverted.png')] bg-cover relative text-skin-inverted p-2"
+	class="w-screen h-[70vh] bg-[url('/src/lib/images/blob-scene.png')] bg-cover relative text-skin-inverted p-2"
 	id="contact-us"
 	action="https://formsubmit.co/nsvegur01@gmail.com"
 	method="POST"
 >
-	<div class="absolute w-full h-full inset-0 bg-black bg-opacity-50 backdrop-blur-sm" />
+	<div class="absolute w-full h-full inset-0 bg-black bg-opacity-50" />
 	<div class="absolute w-full inset-0 flex -sm:flex-col items-center">
 		<div
 			class="min-h-[theme(spacing.32)] w-1/2 flex flex-col items-center justify-center -sm:w-full"

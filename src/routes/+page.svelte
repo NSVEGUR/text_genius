@@ -1,12 +1,11 @@
 <script lang="ts">
-	import AIDetectionAccuracy from '$lib/images/AI-Detection-Accuracy-Test-Summary.webp';
 	import Overview from '$lib/videos/TextGenius_FINAL.mp4';
 </script>
 
 <main>
 	<!-- HOME -->
 	<section
-		class="bg-[url('/src/lib/images/wave.png')] w-screen bg-top bg-cover h-[70vh] -sm:h-[calc(100vh-theme(spacing.16))] relative text-center"
+		class="bg-[url('/src/lib/images/blob-scene.png')] w-screen bg-top bg-cover h-[70vh] -sm:h-[calc(100vh-theme(spacing.16))] relative text-center"
 		id="home"
 	>
 		<div
@@ -18,7 +17,7 @@
 				</h2>
 			</div>
 			<div>
-				<h1 class="text-center text-5xl font-bold mb-2">
+				<h1 class="text-center text-5xl font-bold mb-2 text-white">
 					TEXT-<span class="text-accent">GENIUS</span>
 				</h1>
 			</div>
@@ -38,7 +37,7 @@
 				>Contact Us</a
 			>
 		</div>
-		<div class="absolute w-full h-full inset-0 bg-black bg-opacity-50 backdrop-blur-sm" />
+		<div class="absolute w-full h-full inset-0 bg-black bg-opacity-60" />
 	</section>
 	<!-- ABOUT -->
 	<section
@@ -61,86 +60,35 @@
 				>AI Content Detection Accuracy</a
 			>
 		</p>
-		<div class="flex justify-center">
-			<img src={AIDetectionAccuracy} alt="accuracy test" class="w-[60%]" />
-		</div>
-		<h1 class="text-center font-bold text-4xl">
-			Built With Serious Web Publishers In Mind And Not For Academia
-		</h1>
+		<h1 class="text-center font-bold text-4xl">Built For Academia.</h1>
 		<p>
-			Your needs, as a serious web publisher, for a plagiarism checking and AI detection tool are
-			unique. Yet, all the existing plagiarism checking tools are built with Academia in mind.
+			Your needs for a plagiarism checking and AI detection tool are unique. Yet, all the existing
+			plagiarism checking tools are built with Academia in mind.
 		</p>
 		<p>
-			Originality.AI is built by a team of content marketing and GPT-3 AI experts that deeply
+			Text Genius is built by a team of content marketing and GPT-3 AI experts that deeply
 			understands your needs and includes features like Team Management (no more sharing your
 			login), Full Site Scan (coming soon), Auto-Billing, Scan History by User and most importantly
 			an AI Writing Detection tool.
 		</p>
-		<p>It will be a massive improvement to your business if you are a…</p>
-		<div class="grid grid-cols-3 gap-2 justify-evenly items-start my-10 -md:grid-cols-1">
+		<div class="grid grid-cols-1 gap-2 justify-evenly items-start my-10 -md:grid-cols-1">
 			<div
 				class="flex flex-col gap-5 items-center bg-muted h-full p-5 rounded-lg shadow hover:shadow-lg transition-shadow duration-200"
 			>
 				<div
 					class="w-10 h-10 rounded-full flex items-center justify-center bg-accent text-skin-inverted"
 				>
-					<i class="fas fa-globe-americas" />
+					<i class="fas fa-server" />
 				</div>
-				<h1 class="text-xl font-bold">Web Publisher</h1>
+				<h1 class="text-xl font-bold">API Integration</h1>
 				<h2>
-					Do you need to make sure your content is original, meaning: plagiarism free and written by
-					a human writer and not AI?
+					How to use?, No sweat we provide a fast API service which integrates easily anywhere.
 				</h2>
 				<p class="text-skin-muted">
-					You can now have all your content scanned with a record of who scanned it, when it was
-					scanned, if AI is suspected and if any plagiarism was found all saved for reference later.
-					You will no longer need to rely on their promise that it is plagiarism free, original
-					content or waste time scanning it yourself. With the team management function and activity
-					history it puts you or your editor in firm control of your plagiarism checking.
-				</p>
-			</div>
-			<div
-				class="flex flex-col gap-5 items-center bg-muted h-full p-5 rounded-lg shadow hover:shadow-lg transition-shadow duration-200"
-			>
-				<div
-					class="w-10 h-10 rounded-full flex items-center justify-center bg-accent text-skin-inverted"
-				>
-					<i class="fas fa-user-friends" />
-				</div>
-				<h1 class="text-xl font-bold">Content Agency</h1>
-				<h2>
-					Do you need to manage a large team and verify at scale that original content is being
-					produced?
-				</h2>
-				<p class="text-skin-muted">
-					Large teams scanning thousands of articles per month produce unique challenges. With
-					Originality.AI’s “Team Management” module it allows you to add/remove and monitor team
-					members activity easily. Plus, with the auto-billing feature for credits you will never
-					have your team at a stand-still waiting for credits again. You can now provide increased
-					confidence to your clients that content is produced by humans and is plagiarism free. Win
-					business from your competitors not using Originality.AI
-				</p>
-			</div>
-			<div
-				class="flex flex-col gap-5 items-center bg-muted h-full p-5 rounded-lg shadow hover:shadow-lg transition-shadow duration-200"
-			>
-				<div
-					class="w-10 h-10 rounded-full flex items-center justify-center bg-accent text-skin-inverted"
-				>
-					<i class="fas fa-cubes" />
-				</div>
-				<h1 class="text-xl font-bold">Website Buyer</h1>
-				<h1>
-					Do you need to check an ENTIRE site to make sure content is Original (plagiarism free and
-					not created by AI?)
-				</h1>
-				<p class="text-skin-muted">
-					Full Site scan (coming soon)! No more spot checking only the top pages of a site before
-					you purchase it. With the Originality.AI website scanner it crawls the entire site and
-					then completes a full Plagiarism Check and AI Detection Check on all the content. Get a
-					complete picture on a sites plagiarism and AI content risk quickly. Whether a site has 10,
-					100 or 1000+ articles Originality.AI will check them all!
+					API integration services make it even easier to connect different systems using APIs.
+					These services provide pre-built connectors and tools that enable developers to quickly
+					and easily connect different applications and services without having to write custom
+					integration code from scratch.
 				</p>
 			</div>
 		</div>
@@ -176,28 +124,5 @@
 			<track kind="captions" />
 			Your browser does not support the video tag.
 		</video>
-		<div class="flex gap-10 items-center -lg:flex-col">
-			<div class="bg-muted w-[50%] -lg:w-full h-full p-10 text-left flex flex-col gap-5">
-				<h1 class="text-xl font-bold">
-					AI Content Detection Accuracy – GPTZero vs Writer vs Open AI vs CopyLeaks vs Text Genius –
-					Detecting Chat GPT AI Content Accuracy
-				</h1>
-				<p>
-					In this detailed post, our team looks at the accuracy of our AI detection and its ability
-					to accurately detect Chat GPT, GPT-4, paraphrased and other popular NLP models.
-					Additionally, we compare the accuracy of Originality.AI to other AI detection tools
-					including Open AI’s classifier, GPTZero, Writer.AI and CopyLeaks. We try and provide a lot
-					[…]
-				</p>
-				<p>
-					<span class="text-skin-muted">By </span>Ruthwik
-					<span class="text-skin-muted">Categories: </span>Case Study
-				</p>
-				<a href="/" class="bg-accent text-skin-inverted p-2 w-max font-medium">Continue Reading</a>
-			</div>
-			<div class="w-[50%] -lg:w-full">
-				<img src={AIDetectionAccuracy} alt="accuracy-test" />
-			</div>
-		</div>
 	</section>
 </main>
