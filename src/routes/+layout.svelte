@@ -1,8 +1,35 @@
-<script>
+<script lang="ts">
 	import '../app.postcss';
 	import Logo from '$lib/images/logo.png';
 	import ChevronRight from '$lib/svg/ChevronRight.svelte';
+	import { onMount } from 'svelte';
 	let toggleNav = false;
+	let hyperlinks = [
+		{
+			name: 'Home',
+			href: '#home',
+			active: true,
+			class: 'home-btn'
+		},
+		{
+			name: 'About',
+			href: '#about',
+			active: false,
+			class: 'about-btn'
+		},
+		{
+			name: 'Pricing',
+			href: '#pricing',
+			active: false,
+			class: 'pricing-btn'
+		},
+		{
+			name: 'Overview',
+			href: '#overview',
+			active: false,
+			class: 'overview-btn'
+		}
+	];
 </script>
 
 <header
@@ -37,18 +64,11 @@
 					<i class="fas fa-times" />
 				</button>
 			</li>
-			<li>
-				<a href="#home">Home</a>
-			</li>
-			<li>
-				<a href="#about">About</a>
-			</li>
-			<li>
-				<a href="#pricing">Pricing</a>
-			</li>
-			<li>
-				<a href="#overview">Overview</a>
-			</li>
+			{#each hyperlinks as hyperlink}
+				<li>
+					<a href={hyperlink.href}>{hyperlink.name}</a>
+				</li>
+			{/each}
 			<a
 				class="p-1 -lg:py-2 -lg:text-center px-2 text-xs bg-accent text-skin-inverted font-medium hover:scale-[1.05] transition-all duration-200 rounded-xl"
 				href="#contact-us">Contact Us</a
@@ -161,18 +181,11 @@
 		<div>
 			<h1 class="font-secondary font-bold text-xl text-skin-base">Quick Links</h1>
 			<ul class="mt-5 flex flex-col gap-1">
-				<li class="hover:text-accent hover:scale-105 transition-all duration-200">
-					<a href="#home">Home</a>
-				</li>
-				<li class="hover:text-accent hover:scale-105 transition-all duration-200">
-					<a href="#about">About</a>
-				</li>
-				<li class="hover:text-accent hover:scale-105 transition-all duration-200">
-					<a href="#overview">Overview</a>
-				</li>
-				<li class="hover:text-accent hover:scale-105 transition-all duration-200">
-					<a href="#pricing">Pricing</a>
-				</li>
+				{#each hyperlinks as hyperlink}
+					<li class="hover:text-accent hover:scale-105 transition-all duration-200">
+						<a href={hyperlink.href}>{hyperlink.name}</a>
+					</li>
+				{/each}
 				<li class="hover:text-accent hover:scale-105 transition-all duration-200">
 					<a href="#contact-us">Contact Us</a>
 				</li>

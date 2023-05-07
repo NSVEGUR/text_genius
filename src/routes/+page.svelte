@@ -43,7 +43,7 @@
 	<!-- ABOUT -->
 	<section
 		id="about"
-		class="w-[75%] -lg:w-[90%] m-auto my-10 flex flex-col gap-10 justify-center items-center text-center text-lg"
+		class="w-full p-10 px-28 -lg:px-5 flex flex-col gap-10 justify-center items-center text-center text-lg"
 	>
 		<h1 class="text-center font-bold text-4xl">
 			<span class="text-accent">Text Genius</span> is the next generation AI detection tool.
@@ -147,7 +147,7 @@
 	</section>
 	<!-- PRICING -->
 	<section
-		class="bg-inverted text-skin-inverted text-center flex flex-col items-center justify-center gap-5 p-10 px-20 -md:p-5 text-lg"
+		class="w-full bg-inverted text-skin-inverted text-center flex flex-col items-center justify-center gap-5 p-10 px-20 -md:p-5 text-lg"
 		id="pricing"
 	>
 		<h1 class="text-3xl font-bold">
@@ -167,7 +167,7 @@
 	</section>
 	<!-- OVERVIEW -->
 	<section
-		class="w-[75%] -md:w-[98%] m-auto my-10 flex flex-col gap-10 text-center items-center justify-center"
+		class="w-full p-10 px-28 -lg:px-5 flex flex-col gap-10 text-center items-center justify-center"
 		id="overview"
 	>
 		<h1 class="text-4xl font-bold mb-5 -md:mb-0">See How Text Genius Works.</h1>
