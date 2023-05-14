@@ -12,9 +12,7 @@
 			class="w-full h-full flex flex-col items-center justify-center gap-6 absolute inset-0 z-10 text-skin-inverted"
 		>
 			<div>
-				<h2 class="text-xl font-bold">
-					The Most Accurate AI Content Detector and Plagiarism Checker.
-				</h2>
+				<h2 class="text-xl font-bold">The Most Accurate AI Content Detector.</h2>
 			</div>
 			<div>
 				<h1 class="text-center text-5xl font-bold mb-2 text-white">
@@ -62,10 +60,6 @@
 		</p>
 		<h1 class="text-center font-bold text-4xl">Built For Academia.</h1>
 		<p>
-			Your needs for a plagiarism checking and AI detection tool are unique. Yet, all the existing
-			plagiarism checking tools are built with Academia in mind.
-		</p>
-		<p>
 			Text Genius is built by a team of content marketing and GPT-3 AI experts that deeply
 			understands your needs and includes features like Team Management (no more sharing your
 			login), Full Site Scan (coming soon), Auto-Billing, Scan History by User and most importantly
@@ -95,23 +89,68 @@
 	</section>
 	<!-- PRICING -->
 	<section
-		class="w-full bg-inverted text-skin-inverted text-center flex flex-col items-center justify-center gap-5 p-10 px-20 -md:p-5 text-lg"
+		class="px-10 grid grid-cols-3 gap-5 justify-evenly items-start my-10 -md:grid-cols-1"
 		id="pricing"
 	>
-		<h1 class="text-3xl font-bold">
-			Text Genius Is Less Expensive Than Your Current Outdated Plagiarism Checking Tool But Does Way
-			More
-		</h1>
-		<p>
-			With Text Genius you can add unlimited team members, unlimited websites and complete unlimited
-			scans checking for both Plagiarism and if AI Writing Tools are suspected to have been used.
-		</p>
-		<p>
-			Plus, never worry about adding credits again with automatic billing at the industry-low price
-			of $0.01 per 100 words per scan. You can scan for either Plagiarism only, AI only or run both
-			scans at the same time.
-		</p>
-		<a href="#contact-us" class="bg-accent p-2 text-skin-base">Contact Us</a>
+		<div
+			class="bg-muted h-full rounded-lg overflow-hidden shadow hover:shadow-lg transition-shadow duration-200 text-center"
+		>
+			<div class="h-2 w-full bg-[#EB733C]" />
+			<div class="p-5 flex flex-col items-center justify-center gap-3">
+				<i class="far fa-handshake text-skin-muted text-xl" />
+				<h1 class="text-xl font-bold">Essential</h1>
+				<p class="text-skin-muted">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis excepturi aliquid
+					placeat ex recusandae soluta iusto unde quasi, sapiente modi vel debitis veritatis neque
+					nemo vero, eligendi sint, illum dolor!
+				</p>
+				<h1 class="text-3xl font-bold">$ 29 <span class="text-base">/mo</span></h1>
+				<p>Or <span>$299/year</span>(14% discount)</p>
+				<button class="p-3 bg-[#EB733C] text-skin-inverted">BUY NOW</button>
+				<div>
+					<i class="fas fa-users" />
+				</div>
+				<p>5 users or more?</p>
+				<a href="/" class="underline">Request a demo for your team.</a>
+			</div>
+		</div>
+		<div
+			class="bg-muted h-full rounded-lg overflow-hidden shadow hover:shadow-lg transition-shadow duration-200 text-center"
+		>
+			<div class="h-2 w-full bg-[#4A96C5]" />
+			<div class="p-5 flex flex-col items-center justify-center gap-3">
+				<i class="fas fa-user-tie text-skin-muted text-xl" />
+				<h1 class="text-xl font-bold">Plus</h1>
+				<p class="text-skin-muted">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis excepturi aliquid
+					placeat ex recusandae soluta iusto unde quasi, sapiente modi vel debitis veritatis neque
+					nemo vero, eligendi sint, illum dolor!
+				</p>
+				<h1 class="text-3xl font-bold">$ 49 <span class="text-base">/mo</span></h1>
+				<p>Or <span>$499/year</span>(15% discount)</p>
+				<button class="p-3 bg-[#4A96C5] text-skin-inverted">BUY NOW</button>
+				<div>
+					<i class="fas fa-users" />
+				</div>
+				<p>5 users or more?</p>
+				<a href="/" class="underline">Request a demo for your team.</a>
+			</div>
+		</div>
+		<div
+			class="bg-muted h-full rounded-lg overflow-hidden shadow hover:shadow-lg transition-shadow duration-200 text-center"
+		>
+			<div class="h-2 w-full bg-[#314A56]" />
+			<div class="p-5 flex flex-col items-center justify-center gap-3">
+				<i class="fas fa-building text-skin-muted text-xl" />
+				<h1 class="text-xl font-bold">Enterprise</h1>
+				<p class="text-skin-muted">
+					Premium team onboarding, education, quarterly business reviews and a personal video
+					success coach.
+				</p>
+				<h2 class="font-medium mb-5">Custom solutions for teams of 5 or more users</h2>
+				<button class="p-3 bg-[#314A56] text-skin-inverted">CONTACT SALES</button>
+			</div>
+		</div>
 	</section>
 	<!-- OVERVIEW -->
 	<section

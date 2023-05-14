@@ -47,7 +47,7 @@
 		<img class="w-12 -sm:w-10" src={Logo} alt="src" />
 		<div class="flex flex-col">
 			<h1 class="font-secondary text-2xl -sm:text-base font-medium">Text Genius</h1>
-			<span class="text-xs">Plagiarism Checker and AI Detector</span>
+			<span class="text-xs">AI Detector</span>
 		</div>
 	</div>
 	<nav
