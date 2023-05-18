@@ -1,8 +1,7 @@
 <script lang="ts">
 	import '../app.postcss';
-	import Logo from '$lib/images/logo.png';
+	import Logo from '$lib/images/logo.jpeg';
 	import ChevronRight from '$lib/svg/ChevronRight.svelte';
-	import { onMount } from 'svelte';
 	let toggleNav = false;
 	let hyperlinks = [
 		{
@@ -43,12 +42,8 @@
 	>
 		<i class="fas fa-bars text-skin-base fa-lg" />
 	</button>
-	<div class="flex items-center gap-2">
-		<img class="w-12 -sm:w-10" src={Logo} alt="src" />
-		<div class="flex flex-col">
-			<h1 class="font-secondary text-2xl -sm:text-base font-medium">Text Genius</h1>
-			<span class="text-xs">AI Detector</span>
-		</div>
+	<div>
+		<img class="h-12" src={Logo} alt="src" />
 	</div>
 	<nav
 		class="-md:bg-dominant -md:fixed -md:top-0 -md:left-0 -md:h-screen -md:w-[50%] -md:p-5 -md:-translate-x-full {toggleNav &&
