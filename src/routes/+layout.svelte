@@ -164,9 +164,8 @@
 		class="grid grid-cols-3 p-4 justify-items-center -md:grid-cols-2 -sm:grid-cols-1 -md:gap-10 -sm:justify-items-start"
 	>
 		<div class="flex flex-col gap-5">
-			<div class="flex gap-1 items-center">
-				<img class="w-12" src={Logo} alt="logo" />
-				<span class="font-secondary text-skin-base font-bold">Text Genius</span>
+			<div>
+				<img class="h-12" src={Logo} alt="logo" />
 			</div>
 			<p class="w-60">
 				TextGenius provides you with an accurate classification of whether the text is fully,
