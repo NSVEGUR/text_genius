@@ -21,12 +21,10 @@
 			</div>
 			<div class="flex flex-col gap-3">
 				<p>
-					The Outperformer of other existing AI-text detectors on the web, including OpenAI's AI
-					Text Classifier.
+					Empowering educators with AI-powered text detection for student success.
 				</p>
 				<p>
-					If you are curious about TextGenius or know someone who might be, please reach out to us
-					to set up a demo or meeting.
+					Take the next step in your learning journey, reach out to us.
 				</p>
 			</div>
 			<a
@@ -46,23 +44,21 @@
 			<span class="text-accent">Text Genius</span> is the next generation AI detection tool.
 		</h1>
 		<p class="text-center">
-			Text Genius is by far the most accurate AI (Chat GPT, GPT-2, GPT-3, GPT-4, Bard and ONLY
-			Paraphrase Detection (quillbot)) Content Detection tool on the market. Across a testing data
-			set of 1200 data samples it achieved an accuracy of 96% while its closest competitor achieved
-			only 35%. One of the reasons it outperforms its competition is that the AI at Originality.AI
-			uses A LOT of compute power and does NOT have a free option. While many of the competitors are
-			a free tool.
+			Unleash the power of the world's most advanced AI detection tool - Text Genius.
+			Introducing to you the most accurate AI (Chat GPT, GPT-2, GPT-3, GPT-4, Bard etc.) detection tool. 
+			Powered by advanced algorithms, TextGenius excels at detecting and analyzing text like never before.
+			Now no one can cheat on you using AI 😉 .       		
 		</p>
-		<p class="text-center">
+<!-- 		<p class="text-center">
 			See the full study here: <a href="#about" class="underline text-accent"
 				>AI Content Detection Accuracy</a
 			>
-		</p>
+		</p> -->
 		<h1 class="text-center font-bold text-4xl">Built For Academia.</h1>
 		<p>
 			Text Genius is built by a team of content marketing and GPT-3 AI experts that deeply
 			understands your needs and includes features like Team Management (no more sharing your
-			login), Full Site Scan (coming soon), Auto-Billing, Scan History by User and most importantly
+			login), Full Site Scan (coming soon),Plagiarism Check (Coming soon)  Auto-Billing, Scan History by User and most importantly
 			an AI Writing Detection tool.
 		</p>
 		<div class="grid grid-cols-1 gap-2 justify-evenly items-start my-10 -md:grid-cols-1">
@@ -80,9 +76,8 @@
 				</h2>
 				<p class="text-skin-muted">
 					API integration services make it even easier to connect different systems using APIs.
-					These services provide pre-built connectors and tools that enable developers to quickly
-					and easily connect different applications and services without having to write custom
-					integration code from scratch.
+					Our services provide pre-built connectors and tools that enable developers to quickly
+					and easily connect different applications and services without having to write any custom integration code.
 				</p>
 			</div>
 		</div>
@@ -98,19 +93,17 @@
 			<div class="h-2 w-full bg-[#EB733C]" />
 			<div class="p-5 flex flex-col items-center justify-center gap-3">
 				<i class="far fa-handshake text-skin-muted text-xl" />
-				<h1 class="text-xl font-bold">Essential</h1>
+				<h1 class="text-xl font-bold">Individual</h1>
 				<p class="text-skin-muted">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis excepturi aliquid
-					placeat ex recusandae soluta iusto unde quasi, sapiente modi vel debitis veritatis neque
-					nemo vero, eligendi sint, illum dolor!
+					Restricted to 100,000 words/month only for a single user.
 				</p>
-				<h1 class="text-3xl font-bold">$ 29 <span class="text-base">/mo</span></h1>
+				<h1 class="text-3xl font-bold">$29.99 <span class="text-base">/mo</span></h1>
 				<p>Or <span>$299/year</span>(14% discount)</p>
 				<button class="p-3 bg-[#EB733C] text-skin-inverted">BUY NOW</button>
 				<div>
 					<i class="fas fa-users" />
 				</div>
-				<p>5 users or more?</p>
+<!-- 				<p></p> -->
 				<a href="/" class="underline">Request a demo for your team.</a>
 			</div>
 		</div>
@@ -120,19 +113,17 @@
 			<div class="h-2 w-full bg-[#4A96C5]" />
 			<div class="p-5 flex flex-col items-center justify-center gap-3">
 				<i class="fas fa-user-tie text-skin-muted text-xl" />
-				<h1 class="text-xl font-bold">Plus</h1>
+				<h1 class="text-xl font-bold">Team</h1>
 				<p class="text-skin-muted">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis excepturi aliquid
-					placeat ex recusandae soluta iusto unde quasi, sapiente modi vel debitis veritatis neque
-					nemo vero, eligendi sint, illum dolor!
+					Restricted to 1,000,000 words/month upto five users.
 				</p>
-				<h1 class="text-3xl font-bold">$ 49 <span class="text-base">/mo</span></h1>
-				<p>Or <span>$499/year</span>(15% discount)</p>
+				<h1 class="text-3xl font-bold">$ 99.99 <span class="text-base">/mo</span></h1>
+				<p>Or <span>$999/year</span>(17% discount)</p>
 				<button class="p-3 bg-[#4A96C5] text-skin-inverted">BUY NOW</button>
 				<div>
 					<i class="fas fa-users" />
 				</div>
-				<p>5 users or more?</p>
+<!-- 				<p>5 users or more?</p> -->
 				<a href="/" class="underline">Request a demo for your team.</a>
 			</div>
 		</div>
@@ -143,11 +134,10 @@
 			<div class="p-5 flex flex-col items-center justify-center gap-3">
 				<i class="fas fa-building text-skin-muted text-xl" />
 				<h1 class="text-xl font-bold">Enterprise</h1>
-				<p class="text-skin-muted">
-					Premium team onboarding, education, quarterly business reviews and a personal video
-					success coach.
-				</p>
-				<h2 class="font-medium mb-5">Custom solutions for teams of 5 or more users</h2>
+<!-- 				<p class="text-skin-muted">
+					Custom pricing for enterprises comprising of schoools,universities or other larger organizations.
+				</p> -->
+				<h2 class="font-medium mb-5">Custom pricing for enterprises comprising of schoools,universities or other larger organizations.</h2>
 				<button class="p-3 bg-[#314A56] text-skin-inverted">CONTACT SALES</button>
 			</div>
 		</div>
